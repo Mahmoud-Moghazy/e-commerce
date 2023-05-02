@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Tillana:wght@400;500;600;700;800&display=swap');
+
+body{
+  font-family: 'Tillana', cursive;
+  background-image: url(images/light-patten.svg);
+  height: fit-content;
+}
+
+.userName{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
