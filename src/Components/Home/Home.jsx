@@ -113,7 +113,7 @@ export default function Home({ userData }) {
     getAllProducts();
     userCart();
     userWishlist();
-  }, [page]);
+  },[page]);
 
   if (loading || !allProducts) {
     // add a loading screen when data is being fetched or allProducts is null

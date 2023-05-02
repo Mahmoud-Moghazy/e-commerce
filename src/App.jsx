@@ -3,7 +3,7 @@ import jwtDecode from "jwt-decode";
 import { Toaster } from "react-hot-toast";
 import React, { useEffect, useState } from "react";
 import { CartContextProvider } from "./Context/CartContext";
-import { createBrowserRouter, createHashRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 
 import Home from "./Components/Home/Home";
 import Cart from "./Components/Cart/Cart";
